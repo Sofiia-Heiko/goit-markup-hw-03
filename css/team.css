@@ -1,4 +1,23 @@
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+}
+
+.team-content {
+  padding: 32px 0;
+}
+
 .team-name {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
@@ -13,11 +32,4 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-}
-.team {
-  background-color: #f4f4fd;
-}
-
-.team-item {
-  background-color: #ffffff;
 }

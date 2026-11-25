@@ -1,17 +1,22 @@
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
+  display: inline-block;
   color: #f4f4fd;
 }
 
+.footer-logo .logo-accent {
+  color: #4d5ae5;
+}
+
 .footer-text {
+  max-width: 264px;
+  margin-top: 16px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.footer-logo .logo-accent {
-  color: #4d5ae5;
 }
